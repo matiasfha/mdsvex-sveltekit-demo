@@ -1,0 +1,23 @@
+---
+title: Third post
+description: A test content with custom components
+keywords:
+- Keyword 1
+- Keyword 2
+image: https://res.cloudinary.com/matiasfha/image/upload/v1624853723/apply-these-5-secret-techniques-to-improve-web-development1111.jpg
+list: [1,2,3,4,"boo"]
+--- 
+
+<script>
+import Tweet from '$lib/components/Tweet.svelte'
+</script>
+
+# { title }
+
+> The following list is rendered based on the list content of frontmatter
+
+<ul>
+{#each list as item}
+  <li>{item}</li>
+{/each}
+</ul>

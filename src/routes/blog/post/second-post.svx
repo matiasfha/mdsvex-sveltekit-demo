@@ -1,0 +1,19 @@
+---
+title: Second post with Tweet
+description: My first markdown content
+keywords:
+- Keyword 1
+- Keyword 2
+featured: true
+image: https://res.cloudinary.com/matiasfha/image/upload/v1624853723/apply-these-5-secret-techniques-to-improve-web-development1111.jpg
+--- 
+
+<script>
+import Tweet from '$lib/components/Tweet.svelte'
+</script>
+
+# { title }
+
+> This is a quote
+
+<Tweet id="1432325351569563658"/>i

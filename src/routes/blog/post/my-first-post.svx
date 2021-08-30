@@ -1,0 +1,22 @@
+---
+title: Svex up your markdown 
+description: My first markdown content
+keywords:
+- Keyword 1
+- Keyword 2
+featured: true
+image: https://res.cloudinary.com/matiasfha/image/upload/v1625018867/apply-these-5-secret-techniques-to-improve-web-development111.jpg
+--- 
+
+<script>
+import Youtube from '$lib/components/Youtube.svelte'
+import CodeSandbox from '$lib/components/CodeSandbox.svelte'
+</script>
+
+# { title }
+
+This is more markdown **base content**
+
+<Youtube videoId="AdNJ3fydeao" />
+
+<CodeSandbox sandboxId="j0y0vpz59"/>

@@ -1,14 +1,14 @@
-const config = {
-  "extensions": [".svx"],
+import { defineMDSveXConfig as defineConfig } from 'mdsvex';
 
-  "smartypants": {
-    "dashes": "oldschool"
-  },
-  layout: {
-		blog: "./src/lib/components/PostLayout.svelte",
-  },
-  "remarkPlugins": [],
-  "rehypePlugins": []
-};
+const config = defineConfig({
+	extensions: ['.svelte.md', '.md', '.svx'],
+
+	smartypants: {
+		dashes: 'oldschool'
+	},
+
+	remarkPlugins: [],
+	rehypePlugins: []
+});
 
 export default config;
